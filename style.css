@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
+input:focus,textarea:focus{
+    
+    outline: 2px solid #b2436f;
+}
+input:focus:invalid{
+    border: 2px solid red;
+    outline: none;
+}
+textarea{
+    margin: 10px;
+    padding: 10px;
+}
+.form{
+    padding: 20px;
+    
+}
+.col-1{
+    width: 24%;
+}
+.col-2{
+    width: 49%;
+}
+.col-3{
+    width: 73%;
+}
+.col-4{
+    width: 100%;
+}
+.head{
+    height: 100px;
+    background-color: #b2436f;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 10px;
+    color: white;
+}
+.inputs{
+    width: 70%;
+    margin:20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.inputs h2{
+    text-align: center;
+    margin: 5px;
+}
+.inputs button{
+    padding: 10px;
+    background-color: #b2436f;
+    color: white;
+}
+input[type='email'],input[type='url']{
+    text-transform: none;
+}
+
+
+.block1 {
+    background-color: #b2436f;
+    margin: 0px;
+    padding: 20px;
+    color: white;
+}
+
+.block2 {
+    margin: 0;
+    padding: 10px;
+}
+
+.block2 h2 {
+    margin-bottom: 0;
+    color: #b2436f;
+}
+
+ul {
+    padding-left: 14px;
+}
+
+.leftu {
+    text-align: left;
+    vertical-align: top;
+    width: 200px;
+}
+
+.leftu p {
+    padding: 5 0 0 0;
+}
+
+.rightu p {
+    padding: 5 0 8 0;
+}
+
+.rightu {
+    padding-left: 40px;
+}
+
+h2 {
+    padding: 10 0 0 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    color: #b2436f;
+
+    margin-bottom: 5px;
+}
+
+li {
+    padding: 1 0 1 0;
+}
+
+.download {
+    background-color: white;
+    border-radius: 50%;
+    color: #b2436f !important;
+    width: 70px;
+    height: 70px;
+    border: none;
+    outline: none;
+
+    
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    transition: 0.5s;
+}
+
+.download:hover {
+    color: white !important;
+    background-color: #d32168;
+}
+
+a {
+    color: black;
+}
+@media only screen and (max-width:784px) {
+    .inputs{
+        width: 100%;
+    }
+    [class^="col"]{
+        width: 100%;
+    }
+    
+}
